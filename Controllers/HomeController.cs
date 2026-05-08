@@ -13,9 +13,13 @@ public class HomeController : Controller
         _logger = logger;
     }
 
-    public IActionResult Index()
+    public IActionResult Index(int edad, string trabajo , int ingreso ,  int monto , int deudas , string terminos)
     {
-        return View();
+        if (edad < 18 || trabajo = "no" || ingreso < 250.000 || monto < 5 * ingreso || deudas = "si" || terminos = "no")
+        {
+          return View("noApto.cshtml");
+        }
+        return View("apto.cshtml");
     }
 
     public IActionResult Privacy()

@@ -8,7 +8,7 @@
 <br>edad: <input type="number" name="edad"></br>
 <br>dni: <input type="number" name="dni"></br>
 <h2>situacion laboral</h2>
-<br>¿actualmente trabaja?: <input type="radio" name= "text" value= "si" > si  <input type="radio" name= "text" value= "si" > no</br>
+<br>¿actualmente trabaja?: <input type="radio" name= "trabajo" value= "si" > si  <input type="radio" name= "text" value= "si" > no</br>
 <br><select name = "tipo de empleo">
 <option value ="1">----- Seleccione su tipo de empleo -----</option>
 <option value ="2">Relación de dependencia</option>
@@ -20,9 +20,27 @@
 
 <h2>ingreso mensual</h2>
 
-<br>ingreso mensual: <input type="number" name="ingreso mensual"></br>
-<br>¿posee algunas deudas?: <input type="radio" name= "text" value= "si" > si  <input type="radio" name= "text" value= "si" > no</br>
+<br>ingreso mensual: <input type="number" name="ingreso"></br>
+<br>¿posee algunas deudas?: <input type="radio" name= "deudas" value= "si" > si  <input type="radio" name= "text" value= "si" > no</br>
 
 <br>seleccione cuales: <input type ="checkbox" name ="Tarjeta de crédito" > Tarjeta de crédito </br> 
                        <input type ="checkbox" name ="Préstamo bancario" > Préstamo bancario </br>
-                    <input type ="checkbox" name ="Préstamo informal" > Préstamo bancario </br>
+                    <input type ="checkbox" name ="Préstamo informal" > Préstamo informal </br>
+
+<h2> Condiciones del préstamo</h2>
+
+<br>monto solicitado: <input type="number" name="monto"></br>
+<br><select name = "Plazo de devolución">
+<option value ="1">----- Plazo de devolución-----</option>
+<option value ="2">6 meses</option>
+<option value ="3">12 meses</option>
+<option value ="4">24 meses</option>
+
+<h2> Confirmación</h2>
+
+<br>Acepta términos y condiciones: <input type ="checkbox" name ="terminos" > si </br> 
+<input type ="checkbox" name ="no" > no
+
+<input type= "submit" value = "entrar">
+
+</form>

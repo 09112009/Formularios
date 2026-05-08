@@ -94,3 +94,4 @@ Z:\2026\programacion\Formularios\obj\Debug\net9.0\refint\Formularios.dll
 Z:\2026\programacion\Formularios\obj\Debug\net9.0\Formularios.pdb
 Z:\2026\programacion\Formularios\obj\Debug\net9.0\Formularios.genruntimeconfig.cache
 Z:\2026\programacion\Formularios\obj\Debug\net9.0\ref\Formularios.dll
+Z:\2026\programacion\Formularios\obj\Debug\net9.0\Formularios.sourcelink.json
